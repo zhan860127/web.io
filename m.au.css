@@ -136,7 +136,7 @@ box-shadow: 5px 5px 5px #888;
 }
 #i08{
     position: absolute;
-    top:40%;
+    top:30%;
     max-height:40%;
     max-width: 25%;
     left: 20%; 
@@ -146,7 +146,7 @@ box-shadow: 5px 5px 5px #888;
 }
 #i09{
     position: absolute;
-    top:40%;
+    top:30%;
     max-height:40%;
     max-width: 25%;
     left: 50%; 
@@ -156,7 +156,7 @@ box-shadow: 5px 5px 5px #888;
 }
 #i12{
     position: absolute;
-    top:40%;
+    top:30%;
     max-height:40%;
     max-width: 25%;
     left: 80%;
