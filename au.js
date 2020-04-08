@@ -1,6 +1,11 @@
 var snum=0;
 var num=0;
 var i=0;
+
+if(navigator.userAgent.match(/Android|iPhone|iPad/i)) {
+  window.location = 'https://zhan860127.github.io/web.io/m.au.html';
+  }
+
 $(document).ready(function(){
     $(".himg").mouseenter(function(){
        $(this).animate({opacity:"1"},300);
