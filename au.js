@@ -3,10 +3,10 @@ var num=0;
 var i=0;
 $(document).ready(function(){
     $(".himg").mouseenter(function(){
-       $(this).animate({opacity:"1"},1000);
+       $(this).animate({opacity:"1"},300);
     });
     $(".himg").mouseleave(function(){
-        $(this).animate({opacity:"0"},1000);
+        $(this).animate({opacity:"0"},300);
       });
  
       $(".himg").bind('click',function(e){
@@ -39,7 +39,7 @@ $(document).ready(function(){
     var target = e.target;
 
     if (!$(target).is('#i'+snum)&&snum!=0 &&snum!=1 ) {
-        $('#i'+snum).fadeOut('slow');
+        $('#i'+snum).fadeOut('fast');
         snum=0;
         event.stopImmediatePropagation();
     }
